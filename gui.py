@@ -706,6 +706,7 @@ class MainWindow(QMainWindow):
 
         if any(model.startswith(prefix) for prefix in TRIMBLE_MODELS):
             device_family = "trimble"
+            self.device_family = device_family
         elif any(model.startswith(prefix) for prefix in SPECTRA_MODELS):
             device_family = "spectra"
             self.device_family = device_family
