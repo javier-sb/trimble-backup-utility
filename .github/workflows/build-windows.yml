@@ -1,4 +1,4 @@
-name: Build serial-com (Windows)
+name: Build trimble-backup-utility (Windows)
 
 permissions:
   contents: write
