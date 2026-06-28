@@ -28,7 +28,7 @@ jobs:
 
       - name: Build executable
         run: |
-          pyinstaller --clean --onefile --add-data "assets;assets" --add-data "adb;adb" --icon=assets\trimble-backup-utility.ico --version-file=version_info.txt --name "Trimble Backup Utility" main.py
+          python -m pyinstaller --clean --onefile --add-data "assets;assets" --add-data "adb;adb" --icon=assets\trimble-backup-utility.ico --version-file=version_info.txt --name "Trimble Backup Utility" main.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
