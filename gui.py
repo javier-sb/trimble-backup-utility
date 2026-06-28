@@ -115,7 +115,7 @@ class AboutDialog(QDialog):
                 <img src="{adb_icon}" height="16" width="16"> {adb_version}<br>
                 Programado con Python {sys.version.split()[0]}<br>
                 Creado por Javier Salas | 
-                <a href = https://github.com/schweineorgel/trimble-backup-utility>GitHub</a>
+                <a href = https://github.com/javier-sb/trimble-backup-utility>GitHub</a>
             </div>
             """
         )
