@@ -7,8 +7,8 @@ def resource_path(relative_path):
         return os.path.join(sys._MEIPASS, relative_path)
     return os.path.join(os.path.abspath("."), relative_path)
 
-APP_VER = '1.1.1'
-VERSION_URL = "https://raw.githubusercontent.com/schweineorgel/trimble-backup-utility/refs/heads/main/meta/version.json"
+APP_VER = '1.1.2'
+VERSION_URL = "https://raw.githubusercontent.com/javier-sb/trimble-backup-utility/refs/heads/main/meta/version.json"
 
 
 # Full dir
